@@ -1,0 +1,734 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/groot/HPC/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ApplyStencil	src/stencil.cc	/^void ApplyStencil(ImageClass<P> & img_in, ImageClass<P> & img_out) {$/;"	f	typeref:typename:void
+CXX	Makefile	/^CXX=g++ $/;"	m
+ImageClass	src/image.cc	/^ImageClass<P>::ImageClass(char const * file_name) {$/;"	f	class:ImageClass
+ImageClass	src/image.cc	/^ImageClass<P>::ImageClass(int const _width, int const _height) $/;"	f	class:ImageClass
+ImageClass	src/image.cc	/^template class ImageClass<float>;$/;"	v	typeref:meta:class
+ImageClass	src/image.h	/^class ImageClass {$/;"	c
+LDFLAGS	Makefile	/^LDFLAGS=lib\/libpng16.a lib\/libz.a$/;"	m
+OBJECTS	Makefile	/^OBJECTS=src\/main.o src\/image.o src\/stencil.o$/;"	m
+P	src/main.cc	/^#define P /;"	d	file:
+PNGAPI	include/pngconf.h	/^#      define PNGAPI /;"	d
+PNGAPI	include/pngconf.h	/^#    define PNGAPI /;"	d
+PNGAPI	include/pngconf.h	/^#  define PNGAPI /;"	d
+PNGARG	include/pngconf.h	/^#  define PNGARG(/;"	d
+PNGCAPI	include/pngconf.h	/^#      define PNGCAPI /;"	d
+PNGCAPI	include/pngconf.h	/^#    define PNGCAPI /;"	d
+PNGCAPI	include/pngconf.h	/^#  define PNGCAPI$/;"	d
+PNGCBAPI	include/pngconf.h	/^#  define PNGCBAPI /;"	d
+PNGCONF_H	include/pngconf.h	/^#define PNGCONF_H$/;"	d
+PNGLCONF_H	include/pnglibconf.h	/^#define PNGLCONF_H$/;"	d
+PNG_16BIT_SUPPORTED	include/pnglibconf.h	/^#define PNG_16BIT_SUPPORTED$/;"	d
+PNG_AFTER_IDAT	include/png.h	/^#define PNG_AFTER_IDAT /;"	d
+PNG_ALIGNED_MEMORY_SUPPORTED	include/pnglibconf.h	/^#define PNG_ALIGNED_MEMORY_SUPPORTED$/;"	d
+PNG_ALLOCATED	include/pngconf.h	/^#        define PNG_ALLOCATED /;"	d
+PNG_ALLOCATED	include/pngconf.h	/^#      define PNG_ALLOCATED /;"	d
+PNG_ALLOCATED	include/pngconf.h	/^#  define PNG_ALLOCATED /;"	d
+PNG_ALL_FILTERS	include/png.h	/^#define PNG_ALL_FILTERS /;"	d
+PNG_ALL_MNG_FEATURES	include/png.h	/^#define PNG_ALL_MNG_FEATURES /;"	d
+PNG_ALPHA_ASSOCIATED	include/png.h	/^#define PNG_ALPHA_ASSOCIATED /;"	d
+PNG_ALPHA_BROKEN	include/png.h	/^#define PNG_ALPHA_BROKEN /;"	d
+PNG_ALPHA_OPTIMIZED	include/png.h	/^#define PNG_ALPHA_OPTIMIZED /;"	d
+PNG_ALPHA_PNG	include/png.h	/^#define PNG_ALPHA_PNG /;"	d
+PNG_ALPHA_PREMULTIPLIED	include/png.h	/^#define PNG_ALPHA_PREMULTIPLIED /;"	d
+PNG_ALPHA_STANDARD	include/png.h	/^#define PNG_ALPHA_STANDARD /;"	d
+PNG_API_RULE	include/pnglibconf.h	/^#define PNG_API_RULE /;"	d
+PNG_ARM_NEON	include/png.h	/^#  define PNG_ARM_NEON /;"	d
+PNG_BACKGROUND_GAMMA_FILE	include/png.h	/^#  define PNG_BACKGROUND_GAMMA_FILE /;"	d
+PNG_BACKGROUND_GAMMA_SCREEN	include/png.h	/^#  define PNG_BACKGROUND_GAMMA_SCREEN /;"	d
+PNG_BACKGROUND_GAMMA_UNIQUE	include/png.h	/^#  define PNG_BACKGROUND_GAMMA_UNIQUE /;"	d
+PNG_BACKGROUND_GAMMA_UNKNOWN	include/png.h	/^#  define PNG_BACKGROUND_GAMMA_UNKNOWN /;"	d
+PNG_BENIGN_ERRORS_SUPPORTED	include/pnglibconf.h	/^#define PNG_BENIGN_ERRORS_SUPPORTED$/;"	d
+PNG_BENIGN_READ_ERRORS_SUPPORTED	include/pnglibconf.h	/^#define PNG_BENIGN_READ_ERRORS_SUPPORTED$/;"	d
+PNG_BUILD_GRAYSCALE_PALETTE_SUPPORTED	include/pnglibconf.h	/^#define PNG_BUILD_GRAYSCALE_PALETTE_SUPPORTED$/;"	d
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(int, *png_user_chunk_ptr, (png_structp,$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(png_voidp, *png_malloc_ptr, (png_structp,$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_error_ptr, (png_structp, png_const_charp));$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_flush_ptr, (png_structp));$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_free_ptr, (png_structp, png_voidp));$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_end_ptr, (png_structp, png_infop));$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_info_ptr, (png_structp, png_infop));$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_row_ptr, (png_structp, png_bytep,$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_read_status_ptr, (png_structp, png_uint_32,$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_rw_ptr, (png_structp, png_bytep, png_size_t));$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_user_transform_ptr, (png_structp, png_row_infop,$/;"	t
+PNG_CALLBACK	include/png.h	/^typedef PNG_CALLBACK(void, *png_write_status_ptr, (png_structp, png_uint_32,$/;"	t
+PNG_CALLBACK	include/pngconf.h	/^#  define PNG_CALLBACK(/;"	d
+PNG_CHECK_FOR_INVALID_INDEX_SUPPORTED	include/pnglibconf.h	/^#define PNG_CHECK_FOR_INVALID_INDEX_SUPPORTED$/;"	d
+PNG_COLORSPACE_SUPPORTED	include/pnglibconf.h	/^#define PNG_COLORSPACE_SUPPORTED$/;"	d
+PNG_COLOR_MASK_ALPHA	include/png.h	/^#define PNG_COLOR_MASK_ALPHA /;"	d
+PNG_COLOR_MASK_COLOR	include/png.h	/^#define PNG_COLOR_MASK_COLOR /;"	d
+PNG_COLOR_MASK_PALETTE	include/png.h	/^#define PNG_COLOR_MASK_PALETTE /;"	d
+PNG_COLOR_TYPE_GA	include/png.h	/^#define PNG_COLOR_TYPE_GA /;"	d
+PNG_COLOR_TYPE_GRAY	include/png.h	/^#define PNG_COLOR_TYPE_GRAY /;"	d
+PNG_COLOR_TYPE_GRAY_ALPHA	include/png.h	/^#define PNG_COLOR_TYPE_GRAY_ALPHA /;"	d
+PNG_COLOR_TYPE_PALETTE	include/png.h	/^#define PNG_COLOR_TYPE_PALETTE /;"	d
+PNG_COLOR_TYPE_RGB	include/png.h	/^#define PNG_COLOR_TYPE_RGB /;"	d
+PNG_COLOR_TYPE_RGBA	include/png.h	/^#define PNG_COLOR_TYPE_RGBA /;"	d
+PNG_COLOR_TYPE_RGB_ALPHA	include/png.h	/^#define PNG_COLOR_TYPE_RGB_ALPHA /;"	d
+PNG_COL_FROM_PASS_COL	include/png.h	/^#define PNG_COL_FROM_PASS_COL(/;"	d
+PNG_COL_IN_INTERLACE_PASS	include/png.h	/^#define PNG_COL_IN_INTERLACE_PASS(/;"	d
+PNG_COMPRESSION_TYPE_BASE	include/png.h	/^#define PNG_COMPRESSION_TYPE_BASE /;"	d
+PNG_COMPRESSION_TYPE_DEFAULT	include/png.h	/^#define PNG_COMPRESSION_TYPE_DEFAULT /;"	d
+PNG_CONSOLE_IO_SUPPORTED	include/pnglibconf.h	/^#define PNG_CONSOLE_IO_SUPPORTED$/;"	d
+PNG_CONST	include/pngconf.h	/^#define PNG_CONST /;"	d
+PNG_CONVERT_tIME_SUPPORTED	include/pnglibconf.h	/^#define PNG_CONVERT_tIME_SUPPORTED$/;"	d
+PNG_CRC_DEFAULT	include/png.h	/^#define PNG_CRC_DEFAULT /;"	d
+PNG_CRC_ERROR_QUIT	include/png.h	/^#define PNG_CRC_ERROR_QUIT /;"	d
+PNG_CRC_NO_CHANGE	include/png.h	/^#define PNG_CRC_NO_CHANGE /;"	d
+PNG_CRC_QUIET_USE	include/png.h	/^#define PNG_CRC_QUIET_USE /;"	d
+PNG_CRC_WARN_DISCARD	include/png.h	/^#define PNG_CRC_WARN_DISCARD /;"	d
+PNG_CRC_WARN_USE	include/png.h	/^#define PNG_CRC_WARN_USE /;"	d
+PNG_DEFAULT_READ_MACROS	include/pnglibconf.h	/^#define PNG_DEFAULT_READ_MACROS /;"	d
+PNG_DEFAULT_sRGB	include/png.h	/^#define PNG_DEFAULT_sRGB /;"	d
+PNG_DEPRECATED	include/pngconf.h	/^#        define PNG_DEPRECATED /;"	d
+PNG_DEPRECATED	include/pngconf.h	/^#      define PNG_DEPRECATED /;"	d
+PNG_DEPRECATED	include/pngconf.h	/^#  define PNG_DEPRECATED /;"	d
+PNG_DESTROY_WILL_FREE_DATA	include/png.h	/^#define PNG_DESTROY_WILL_FREE_DATA /;"	d
+PNG_DLL_EXPORT	include/pngconf.h	/^#    define PNG_DLL_EXPORT /;"	d
+PNG_DLL_IMPORT	include/pngconf.h	/^#      define PNG_DLL_IMPORT /;"	d
+PNG_EASY_ACCESS_SUPPORTED	include/pnglibconf.h	/^#define PNG_EASY_ACCESS_SUPPORTED$/;"	d
+PNG_EMPTY	include/pngconf.h	/^#define PNG_EMPTY /;"	d
+PNG_EQUATION_ARBITRARY	include/png.h	/^#define PNG_EQUATION_ARBITRARY /;"	d
+PNG_EQUATION_BASE_E	include/png.h	/^#define PNG_EQUATION_BASE_E /;"	d
+PNG_EQUATION_HYPERBOLIC	include/png.h	/^#define PNG_EQUATION_HYPERBOLIC /;"	d
+PNG_EQUATION_LAST	include/png.h	/^#define PNG_EQUATION_LAST /;"	d
+PNG_EQUATION_LINEAR	include/png.h	/^#define PNG_EQUATION_LINEAR /;"	d
+PNG_ERROR_ACTION_ERROR	include/png.h	/^#define PNG_ERROR_ACTION_ERROR /;"	d
+PNG_ERROR_ACTION_NONE	include/png.h	/^#define PNG_ERROR_ACTION_NONE /;"	d
+PNG_ERROR_ACTION_WARN	include/png.h	/^#define PNG_ERROR_ACTION_WARN /;"	d
+PNG_ERROR_TEXT_SUPPORTED	include/pnglibconf.h	/^#define PNG_ERROR_TEXT_SUPPORTED$/;"	d
+PNG_EXPORT	include/pngconf.h	/^#define PNG_EXPORT(/;"	d
+PNG_EXPORTA	include/pngconf.h	/^#  define PNG_EXPORTA(/;"	d
+PNG_EXPORT_TYPE	include/pngconf.h	/^#      define PNG_EXPORT_TYPE(/;"	d
+PNG_EXPORT_TYPE	include/pngconf.h	/^#  define PNG_EXPORT_TYPE(/;"	d
+PNG_FAST_FILTERS	include/png.h	/^#define PNG_FAST_FILTERS /;"	d
+PNG_FILLER_AFTER	include/png.h	/^#  define PNG_FILLER_AFTER /;"	d
+PNG_FILLER_BEFORE	include/png.h	/^#  define PNG_FILLER_BEFORE /;"	d
+PNG_FILTER_AVG	include/png.h	/^#define PNG_FILTER_AVG /;"	d
+PNG_FILTER_HEURISTIC_DEFAULT	include/png.h	/^#define PNG_FILTER_HEURISTIC_DEFAULT /;"	d
+PNG_FILTER_HEURISTIC_LAST	include/png.h	/^#define PNG_FILTER_HEURISTIC_LAST /;"	d
+PNG_FILTER_HEURISTIC_UNWEIGHTED	include/png.h	/^#define PNG_FILTER_HEURISTIC_UNWEIGHTED /;"	d
+PNG_FILTER_HEURISTIC_WEIGHTED	include/png.h	/^#define PNG_FILTER_HEURISTIC_WEIGHTED /;"	d
+PNG_FILTER_NONE	include/png.h	/^#define PNG_FILTER_NONE /;"	d
+PNG_FILTER_PAETH	include/png.h	/^#define PNG_FILTER_PAETH /;"	d
+PNG_FILTER_SUB	include/png.h	/^#define PNG_FILTER_SUB /;"	d
+PNG_FILTER_TYPE_BASE	include/png.h	/^#define PNG_FILTER_TYPE_BASE /;"	d
+PNG_FILTER_TYPE_DEFAULT	include/png.h	/^#define PNG_FILTER_TYPE_DEFAULT /;"	d
+PNG_FILTER_UP	include/png.h	/^#define PNG_FILTER_UP /;"	d
+PNG_FILTER_VALUE_AVG	include/png.h	/^#define PNG_FILTER_VALUE_AVG /;"	d
+PNG_FILTER_VALUE_LAST	include/png.h	/^#define PNG_FILTER_VALUE_LAST /;"	d
+PNG_FILTER_VALUE_NONE	include/png.h	/^#define PNG_FILTER_VALUE_NONE /;"	d
+PNG_FILTER_VALUE_PAETH	include/png.h	/^#define PNG_FILTER_VALUE_PAETH /;"	d
+PNG_FILTER_VALUE_SUB	include/png.h	/^#define PNG_FILTER_VALUE_SUB /;"	d
+PNG_FILTER_VALUE_UP	include/png.h	/^#define PNG_FILTER_VALUE_UP /;"	d
+PNG_FIXED_EXPORT	include/pngconf.h	/^#     define PNG_FIXED_EXPORT(/;"	d
+PNG_FIXED_POINT_SUPPORTED	include/pnglibconf.h	/^#define PNG_FIXED_POINT_SUPPORTED$/;"	d
+PNG_FLAG_MNG_EMPTY_PLTE	include/png.h	/^#define PNG_FLAG_MNG_EMPTY_PLTE /;"	d
+PNG_FLAG_MNG_FILTER_64	include/png.h	/^#define PNG_FLAG_MNG_FILTER_64 /;"	d
+PNG_FLOATING_ARITHMETIC_SUPPORTED	include/pnglibconf.h	/^#define PNG_FLOATING_ARITHMETIC_SUPPORTED$/;"	d
+PNG_FLOATING_POINT_SUPPORTED	include/pnglibconf.h	/^#define PNG_FLOATING_POINT_SUPPORTED$/;"	d
+PNG_FORMAT_ABGR	include/png.h	/^#define PNG_FORMAT_ABGR /;"	d
+PNG_FORMAT_ABGR_COLORMAP	include/png.h	/^#define PNG_FORMAT_ABGR_COLORMAP /;"	d
+PNG_FORMAT_AFIRST_SUPPORTED	include/pnglibconf.h	/^#define PNG_FORMAT_AFIRST_SUPPORTED$/;"	d
+PNG_FORMAT_AG	include/png.h	/^#define PNG_FORMAT_AG /;"	d
+PNG_FORMAT_ARGB	include/png.h	/^#define PNG_FORMAT_ARGB /;"	d
+PNG_FORMAT_ARGB_COLORMAP	include/png.h	/^#define PNG_FORMAT_ARGB_COLORMAP /;"	d
+PNG_FORMAT_BGR	include/png.h	/^#define PNG_FORMAT_BGR /;"	d
+PNG_FORMAT_BGRA	include/png.h	/^#define PNG_FORMAT_BGRA /;"	d
+PNG_FORMAT_BGRA_COLORMAP	include/png.h	/^#define PNG_FORMAT_BGRA_COLORMAP /;"	d
+PNG_FORMAT_BGR_COLORMAP	include/png.h	/^#define PNG_FORMAT_BGR_COLORMAP /;"	d
+PNG_FORMAT_BGR_SUPPORTED	include/pnglibconf.h	/^#define PNG_FORMAT_BGR_SUPPORTED$/;"	d
+PNG_FORMAT_FLAG_AFIRST	include/png.h	/^#  define PNG_FORMAT_FLAG_AFIRST /;"	d
+PNG_FORMAT_FLAG_ALPHA	include/png.h	/^#define PNG_FORMAT_FLAG_ALPHA /;"	d
+PNG_FORMAT_FLAG_ASSOCIATED_ALPHA	include/png.h	/^#define PNG_FORMAT_FLAG_ASSOCIATED_ALPHA /;"	d
+PNG_FORMAT_FLAG_BGR	include/png.h	/^#  define PNG_FORMAT_FLAG_BGR /;"	d
+PNG_FORMAT_FLAG_COLOR	include/png.h	/^#define PNG_FORMAT_FLAG_COLOR /;"	d
+PNG_FORMAT_FLAG_COLORMAP	include/png.h	/^#define PNG_FORMAT_FLAG_COLORMAP /;"	d
+PNG_FORMAT_FLAG_LINEAR	include/png.h	/^#define PNG_FORMAT_FLAG_LINEAR /;"	d
+PNG_FORMAT_GA	include/png.h	/^#define PNG_FORMAT_GA /;"	d
+PNG_FORMAT_GRAY	include/png.h	/^#define PNG_FORMAT_GRAY /;"	d
+PNG_FORMAT_LINEAR_RGB	include/png.h	/^#define PNG_FORMAT_LINEAR_RGB /;"	d
+PNG_FORMAT_LINEAR_RGB_ALPHA	include/png.h	/^#define PNG_FORMAT_LINEAR_RGB_ALPHA /;"	d
+PNG_FORMAT_LINEAR_Y	include/png.h	/^#define PNG_FORMAT_LINEAR_Y /;"	d
+PNG_FORMAT_LINEAR_Y_ALPHA	include/png.h	/^#define PNG_FORMAT_LINEAR_Y_ALPHA /;"	d
+PNG_FORMAT_RGB	include/png.h	/^#define PNG_FORMAT_RGB /;"	d
+PNG_FORMAT_RGBA	include/png.h	/^#define PNG_FORMAT_RGBA /;"	d
+PNG_FORMAT_RGBA_COLORMAP	include/png.h	/^#define PNG_FORMAT_RGBA_COLORMAP /;"	d
+PNG_FORMAT_RGB_COLORMAP	include/png.h	/^#define PNG_FORMAT_RGB_COLORMAP /;"	d
+PNG_FP_1	include/png.h	/^#define PNG_FP_1 /;"	d
+PNG_FP_EXPORT	include/pngconf.h	/^#     define PNG_FP_EXPORT(/;"	d
+PNG_FP_HALF	include/png.h	/^#define PNG_FP_HALF /;"	d
+PNG_FP_MAX	include/png.h	/^#define PNG_FP_MAX /;"	d
+PNG_FP_MIN	include/png.h	/^#define PNG_FP_MIN /;"	d
+PNG_FREE_ALL	include/png.h	/^#define PNG_FREE_ALL /;"	d
+PNG_FREE_EXIF	include/png.h	/^#define PNG_FREE_EXIF /;"	d
+PNG_FREE_HIST	include/png.h	/^#define PNG_FREE_HIST /;"	d
+PNG_FREE_ICCP	include/png.h	/^#define PNG_FREE_ICCP /;"	d
+PNG_FREE_MUL	include/png.h	/^#define PNG_FREE_MUL /;"	d
+PNG_FREE_PCAL	include/png.h	/^#define PNG_FREE_PCAL /;"	d
+PNG_FREE_PLTE	include/png.h	/^#define PNG_FREE_PLTE /;"	d
+PNG_FREE_ROWS	include/png.h	/^#define PNG_FREE_ROWS /;"	d
+PNG_FREE_SCAL	include/png.h	/^#define PNG_FREE_SCAL /;"	d
+PNG_FREE_SPLT	include/png.h	/^#define PNG_FREE_SPLT /;"	d
+PNG_FREE_TEXT	include/png.h	/^#define PNG_FREE_TEXT /;"	d
+PNG_FREE_TRNS	include/png.h	/^#define PNG_FREE_TRNS /;"	d
+PNG_FREE_UNKN	include/png.h	/^#  define PNG_FREE_UNKN /;"	d
+PNG_FUNCTION	include/pngconf.h	/^#  define PNG_FUNCTION(/;"	d
+PNG_GAMMA_LINEAR	include/png.h	/^#define PNG_GAMMA_LINEAR /;"	d
+PNG_GAMMA_MAC_18	include/png.h	/^#define PNG_GAMMA_MAC_18 /;"	d
+PNG_GAMMA_SUPPORTED	include/pnglibconf.h	/^#define PNG_GAMMA_SUPPORTED$/;"	d
+PNG_GAMMA_THRESHOLD	include/png.h	/^#define PNG_GAMMA_THRESHOLD /;"	d
+PNG_GAMMA_THRESHOLD_FIXED	include/pnglibconf.h	/^#define PNG_GAMMA_THRESHOLD_FIXED /;"	d
+PNG_GAMMA_sRGB	include/png.h	/^#define PNG_GAMMA_sRGB /;"	d
+PNG_GET_PALETTE_MAX_SUPPORTED	include/pnglibconf.h	/^#define PNG_GET_PALETTE_MAX_SUPPORTED$/;"	d
+PNG_H	include/png.h	/^#define PNG_H$/;"	d
+PNG_HANDLE_AS_UNKNOWN_SUPPORTED	include/pnglibconf.h	/^#define PNG_HANDLE_AS_UNKNOWN_SUPPORTED$/;"	d
+PNG_HANDLE_CHUNK_ALWAYS	include/png.h	/^#define PNG_HANDLE_CHUNK_ALWAYS /;"	d
+PNG_HANDLE_CHUNK_AS_DEFAULT	include/png.h	/^#define PNG_HANDLE_CHUNK_AS_DEFAULT /;"	d
+PNG_HANDLE_CHUNK_IF_SAFE	include/png.h	/^#define PNG_HANDLE_CHUNK_IF_SAFE /;"	d
+PNG_HANDLE_CHUNK_LAST	include/png.h	/^#define PNG_HANDLE_CHUNK_LAST /;"	d
+PNG_HANDLE_CHUNK_NEVER	include/png.h	/^#define PNG_HANDLE_CHUNK_NEVER /;"	d
+PNG_HAVE_IHDR	include/png.h	/^#define PNG_HAVE_IHDR /;"	d
+PNG_HAVE_PLTE	include/png.h	/^#define PNG_HAVE_PLTE /;"	d
+PNG_HEADER_VERSION_STRING	include/png.h	/^#define PNG_HEADER_VERSION_STRING /;"	d
+PNG_IDAT_READ_SIZE	include/pnglibconf.h	/^#define PNG_IDAT_READ_SIZE /;"	d
+PNG_IGNORE_ADLER32	include/png.h	/^#define PNG_IGNORE_ADLER32 /;"	d
+PNG_IMAGE_BUFFER_SIZE	include/png.h	/^#define PNG_IMAGE_BUFFER_SIZE(/;"	d
+PNG_IMAGE_COLORMAP_SIZE	include/png.h	/^#define PNG_IMAGE_COLORMAP_SIZE(/;"	d
+PNG_IMAGE_COMPRESSED_SIZE_MAX	include/png.h	/^#define PNG_IMAGE_COMPRESSED_SIZE_MAX(/;"	d
+PNG_IMAGE_DATA_SIZE	include/png.h	/^#define PNG_IMAGE_DATA_SIZE(/;"	d
+PNG_IMAGE_ERROR	include/png.h	/^#  define PNG_IMAGE_ERROR /;"	d
+PNG_IMAGE_FAILED	include/png.h	/^#  define PNG_IMAGE_FAILED(/;"	d
+PNG_IMAGE_FLAG_16BIT_sRGB	include/png.h	/^#define PNG_IMAGE_FLAG_16BIT_sRGB /;"	d
+PNG_IMAGE_FLAG_COLORSPACE_NOT_sRGB	include/png.h	/^#define PNG_IMAGE_FLAG_COLORSPACE_NOT_sRGB /;"	d
+PNG_IMAGE_FLAG_FAST	include/png.h	/^#define PNG_IMAGE_FLAG_FAST /;"	d
+PNG_IMAGE_MAXIMUM_COLORMAP_COMPONENTS	include/png.h	/^#define PNG_IMAGE_MAXIMUM_COLORMAP_COMPONENTS(/;"	d
+PNG_IMAGE_PIXEL_	include/png.h	/^#define PNG_IMAGE_PIXEL_(/;"	d
+PNG_IMAGE_PIXEL_CHANNELS	include/png.h	/^#define PNG_IMAGE_PIXEL_CHANNELS(/;"	d
+PNG_IMAGE_PIXEL_COMPONENT_SIZE	include/png.h	/^#define PNG_IMAGE_PIXEL_COMPONENT_SIZE(/;"	d
+PNG_IMAGE_PIXEL_SIZE	include/png.h	/^#define PNG_IMAGE_PIXEL_SIZE(/;"	d
+PNG_IMAGE_PNG_SIZE_MAX	include/png.h	/^#define PNG_IMAGE_PNG_SIZE_MAX(/;"	d
+PNG_IMAGE_PNG_SIZE_MAX_	include/png.h	/^#define PNG_IMAGE_PNG_SIZE_MAX_(/;"	d
+PNG_IMAGE_ROW_STRIDE	include/png.h	/^#define PNG_IMAGE_ROW_STRIDE(/;"	d
+PNG_IMAGE_SAMPLE_CHANNELS	include/png.h	/^#define PNG_IMAGE_SAMPLE_CHANNELS(/;"	d
+PNG_IMAGE_SAMPLE_COMPONENT_SIZE	include/png.h	/^#define PNG_IMAGE_SAMPLE_COMPONENT_SIZE(/;"	d
+PNG_IMAGE_SAMPLE_SIZE	include/png.h	/^#define PNG_IMAGE_SAMPLE_SIZE(/;"	d
+PNG_IMAGE_SIZE	include/png.h	/^#define PNG_IMAGE_SIZE(/;"	d
+PNG_IMAGE_VERSION	include/png.h	/^#define PNG_IMAGE_VERSION /;"	d
+PNG_IMAGE_WARNING	include/png.h	/^#  define PNG_IMAGE_WARNING /;"	d
+PNG_IMPEXP	include/pngconf.h	/^#    define PNG_IMPEXP /;"	d
+PNG_IMPEXP	include/pngconf.h	/^#    define PNG_IMPEXP$/;"	d
+PNG_INCH_CONVERSIONS_SUPPORTED	include/pnglibconf.h	/^#define PNG_INCH_CONVERSIONS_SUPPORTED$/;"	d
+PNG_INFLATE_BUF_SIZE	include/pnglibconf.h	/^#define PNG_INFLATE_BUF_SIZE /;"	d
+PNG_INFO_IDAT	include/png.h	/^#define PNG_INFO_IDAT /;"	d
+PNG_INFO_IMAGE_SUPPORTED	include/pnglibconf.h	/^#define PNG_INFO_IMAGE_SUPPORTED$/;"	d
+PNG_INFO_PLTE	include/png.h	/^#define PNG_INFO_PLTE /;"	d
+PNG_INFO_bKGD	include/png.h	/^#define PNG_INFO_bKGD /;"	d
+PNG_INFO_cHRM	include/png.h	/^#define PNG_INFO_cHRM /;"	d
+PNG_INFO_eXIf	include/png.h	/^#define PNG_INFO_eXIf /;"	d
+PNG_INFO_gAMA	include/png.h	/^#define PNG_INFO_gAMA /;"	d
+PNG_INFO_hIST	include/png.h	/^#define PNG_INFO_hIST /;"	d
+PNG_INFO_iCCP	include/png.h	/^#define PNG_INFO_iCCP /;"	d
+PNG_INFO_oFFs	include/png.h	/^#define PNG_INFO_oFFs /;"	d
+PNG_INFO_pCAL	include/png.h	/^#define PNG_INFO_pCAL /;"	d
+PNG_INFO_pHYs	include/png.h	/^#define PNG_INFO_pHYs /;"	d
+PNG_INFO_sBIT	include/png.h	/^#define PNG_INFO_sBIT /;"	d
+PNG_INFO_sCAL	include/png.h	/^#define PNG_INFO_sCAL /;"	d
+PNG_INFO_sPLT	include/png.h	/^#define PNG_INFO_sPLT /;"	d
+PNG_INFO_sRGB	include/png.h	/^#define PNG_INFO_sRGB /;"	d
+PNG_INFO_tIME	include/png.h	/^#define PNG_INFO_tIME /;"	d
+PNG_INFO_tRNS	include/png.h	/^#define PNG_INFO_tRNS /;"	d
+PNG_INTERLACE_ADAM7	include/png.h	/^#define PNG_INTERLACE_ADAM7 /;"	d
+PNG_INTERLACE_ADAM7_PASSES	include/png.h	/^#define PNG_INTERLACE_ADAM7_PASSES /;"	d
+PNG_INTERLACE_LAST	include/png.h	/^#define PNG_INTERLACE_LAST /;"	d
+PNG_INTERLACE_NONE	include/png.h	/^#define PNG_INTERLACE_NONE /;"	d
+PNG_INTRAPIXEL_DIFFERENCING	include/png.h	/^#define PNG_INTRAPIXEL_DIFFERENCING /;"	d
+PNG_IO_CHUNK_CRC	include/png.h	/^#  define PNG_IO_CHUNK_CRC /;"	d
+PNG_IO_CHUNK_DATA	include/png.h	/^#  define PNG_IO_CHUNK_DATA /;"	d
+PNG_IO_CHUNK_HDR	include/png.h	/^#  define PNG_IO_CHUNK_HDR /;"	d
+PNG_IO_MASK_LOC	include/png.h	/^#  define PNG_IO_MASK_LOC /;"	d
+PNG_IO_MASK_OP	include/png.h	/^#  define PNG_IO_MASK_OP /;"	d
+PNG_IO_NONE	include/png.h	/^#  define PNG_IO_NONE /;"	d
+PNG_IO_READING	include/png.h	/^#  define PNG_IO_READING /;"	d
+PNG_IO_SIGNATURE	include/png.h	/^#  define PNG_IO_SIGNATURE /;"	d
+PNG_IO_STATE_SUPPORTED	include/pnglibconf.h	/^#define PNG_IO_STATE_SUPPORTED$/;"	d
+PNG_IO_WRITING	include/png.h	/^#  define PNG_IO_WRITING /;"	d
+PNG_ITXT_COMPRESSION_NONE	include/png.h	/^#define PNG_ITXT_COMPRESSION_NONE /;"	d
+PNG_ITXT_COMPRESSION_zTXt	include/png.h	/^#define PNG_ITXT_COMPRESSION_zTXt /;"	d
+PNG_KEYWORD_MAX_LENGTH	include/png.h	/^#define PNG_KEYWORD_MAX_LENGTH /;"	d
+PNG_LIBPNG_BUILD_ALPHA	include/png.h	/^#define PNG_LIBPNG_BUILD_ALPHA /;"	d
+PNG_LIBPNG_BUILD_BASE_TYPE	include/png.h	/^#define PNG_LIBPNG_BUILD_BASE_TYPE /;"	d
+PNG_LIBPNG_BUILD_BETA	include/png.h	/^#define PNG_LIBPNG_BUILD_BETA /;"	d
+PNG_LIBPNG_BUILD_PATCH	include/png.h	/^#define PNG_LIBPNG_BUILD_PATCH /;"	d
+PNG_LIBPNG_BUILD_PRIVATE	include/png.h	/^#define PNG_LIBPNG_BUILD_PRIVATE /;"	d
+PNG_LIBPNG_BUILD_RC	include/png.h	/^#define PNG_LIBPNG_BUILD_RC /;"	d
+PNG_LIBPNG_BUILD_RELEASE_STATUS_MASK	include/png.h	/^#define PNG_LIBPNG_BUILD_RELEASE_STATUS_MASK /;"	d
+PNG_LIBPNG_BUILD_SPECIAL	include/png.h	/^#define PNG_LIBPNG_BUILD_SPECIAL /;"	d
+PNG_LIBPNG_BUILD_STABLE	include/png.h	/^#define PNG_LIBPNG_BUILD_STABLE /;"	d
+PNG_LIBPNG_BUILD_TYPE	include/png.h	/^#    define PNG_LIBPNG_BUILD_TYPE /;"	d
+PNG_LIBPNG_BUILD_TYPE	include/png.h	/^#  define PNG_LIBPNG_BUILD_TYPE /;"	d
+PNG_LIBPNG_VER	include/png.h	/^#define PNG_LIBPNG_VER /;"	d
+PNG_LIBPNG_VER_BUILD	include/png.h	/^#define PNG_LIBPNG_VER_BUILD /;"	d
+PNG_LIBPNG_VER_DLLNUM	include/png.h	/^#define PNG_LIBPNG_VER_DLLNUM /;"	d
+PNG_LIBPNG_VER_MAJOR	include/png.h	/^#define PNG_LIBPNG_VER_MAJOR /;"	d
+PNG_LIBPNG_VER_MINOR	include/png.h	/^#define PNG_LIBPNG_VER_MINOR /;"	d
+PNG_LIBPNG_VER_RELEASE	include/png.h	/^#define PNG_LIBPNG_VER_RELEASE /;"	d
+PNG_LIBPNG_VER_SONUM	include/png.h	/^#define PNG_LIBPNG_VER_SONUM /;"	d
+PNG_LIBPNG_VER_STRING	include/png.h	/^#define PNG_LIBPNG_VER_STRING /;"	d
+PNG_LINKAGE_API	include/pnglibconf.h	/^#define PNG_LINKAGE_API /;"	d
+PNG_LINKAGE_CALLBACK	include/pnglibconf.h	/^#define PNG_LINKAGE_CALLBACK /;"	d
+PNG_LINKAGE_DATA	include/pnglibconf.h	/^#define PNG_LINKAGE_DATA /;"	d
+PNG_LINKAGE_FUNCTION	include/pnglibconf.h	/^#define PNG_LINKAGE_FUNCTION /;"	d
+PNG_MAXIMUM_INFLATE_WINDOW	include/png.h	/^#define PNG_MAXIMUM_INFLATE_WINDOW /;"	d
+PNG_MAX_GAMMA_8	include/pnglibconf.h	/^#define PNG_MAX_GAMMA_8 /;"	d
+PNG_MAX_PALETTE_LENGTH	include/png.h	/^#define PNG_MAX_PALETTE_LENGTH /;"	d
+PNG_MIPS_MSA	include/png.h	/^#  define PNG_MIPS_MSA /;"	d
+PNG_MNG_FEATURES_SUPPORTED	include/pnglibconf.h	/^#define PNG_MNG_FEATURES_SUPPORTED$/;"	d
+PNG_NORETURN	include/pngconf.h	/^#      define PNG_NORETURN /;"	d
+PNG_NORETURN	include/pngconf.h	/^#  define PNG_NORETURN /;"	d
+PNG_NO_FILTERS	include/png.h	/^#define PNG_NO_FILTERS /;"	d
+PNG_OFFSET_LAST	include/png.h	/^#define PNG_OFFSET_LAST /;"	d
+PNG_OFFSET_MICROMETER	include/png.h	/^#define PNG_OFFSET_MICROMETER /;"	d
+PNG_OFFSET_PIXEL	include/png.h	/^#define PNG_OFFSET_PIXEL /;"	d
+PNG_OPTION_INVALID	include/png.h	/^#define PNG_OPTION_INVALID /;"	d
+PNG_OPTION_NEXT	include/png.h	/^#define PNG_OPTION_NEXT /;"	d
+PNG_OPTION_OFF	include/png.h	/^#define PNG_OPTION_OFF /;"	d
+PNG_OPTION_ON	include/png.h	/^#define PNG_OPTION_ON /;"	d
+PNG_OPTION_UNSET	include/png.h	/^#define PNG_OPTION_UNSET /;"	d
+PNG_PASS_COLS	include/png.h	/^#define PNG_PASS_COLS(/;"	d
+PNG_PASS_COL_OFFSET	include/png.h	/^#define PNG_PASS_COL_OFFSET(/;"	d
+PNG_PASS_COL_SHIFT	include/png.h	/^#define PNG_PASS_COL_SHIFT(/;"	d
+PNG_PASS_MASK	include/png.h	/^#define PNG_PASS_MASK(/;"	d
+PNG_PASS_ROWS	include/png.h	/^#define PNG_PASS_ROWS(/;"	d
+PNG_PASS_ROW_OFFSET	include/png.h	/^#define PNG_PASS_ROW_OFFSET(/;"	d
+PNG_PASS_ROW_SHIFT	include/png.h	/^#define PNG_PASS_ROW_SHIFT(/;"	d
+PNG_PASS_START_COL	include/png.h	/^#define PNG_PASS_START_COL(/;"	d
+PNG_PASS_START_ROW	include/png.h	/^#define PNG_PASS_START_ROW(/;"	d
+PNG_PEDANTIC_WARNINGS_SUPPORTED	include/pngconf.h	/^#    define PNG_PEDANTIC_WARNINGS_SUPPORTED$/;"	d
+PNG_POINTER_INDEXING_SUPPORTED	include/pnglibconf.h	/^#define PNG_POINTER_INDEXING_SUPPORTED$/;"	d
+PNG_POWERPC_VSX	include/png.h	/^#  define PNG_POWERPC_VSX /;"	d
+PNG_PRIVATE	include/pngconf.h	/^#          define PNG_PRIVATE /;"	d
+PNG_PRIVATE	include/pngconf.h	/^#      define PNG_PRIVATE /;"	d
+PNG_PRIVATE	include/pngconf.h	/^#  define PNG_PRIVATE /;"	d
+PNG_PROGRESSIVE_READ_SUPPORTED	include/pnglibconf.h	/^#define PNG_PROGRESSIVE_READ_SUPPORTED$/;"	d
+PNG_QUANTIZE_BLUE_BITS	include/pnglibconf.h	/^#define PNG_QUANTIZE_BLUE_BITS /;"	d
+PNG_QUANTIZE_GREEN_BITS	include/pnglibconf.h	/^#define PNG_QUANTIZE_GREEN_BITS /;"	d
+PNG_QUANTIZE_RED_BITS	include/pnglibconf.h	/^#define PNG_QUANTIZE_RED_BITS /;"	d
+PNG_READ_16BIT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_16BIT_SUPPORTED$/;"	d
+PNG_READ_16_TO_8_SUPPORTED	include/png.h	/^#define PNG_READ_16_TO_8_SUPPORTED /;"	d
+PNG_READ_ALPHA_MODE_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_ALPHA_MODE_SUPPORTED$/;"	d
+PNG_READ_ANCILLARY_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_ANCILLARY_CHUNKS_SUPPORTED$/;"	d
+PNG_READ_BACKGROUND_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_BACKGROUND_SUPPORTED$/;"	d
+PNG_READ_BGR_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_BGR_SUPPORTED$/;"	d
+PNG_READ_CHECK_FOR_INVALID_INDEX_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_CHECK_FOR_INVALID_INDEX_SUPPORTED$/;"	d
+PNG_READ_COMPOSITE_NODIV_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_COMPOSITE_NODIV_SUPPORTED$/;"	d
+PNG_READ_COMPRESSED_TEXT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_COMPRESSED_TEXT_SUPPORTED$/;"	d
+PNG_READ_EXPAND_16_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_EXPAND_16_SUPPORTED$/;"	d
+PNG_READ_EXPAND_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_EXPAND_SUPPORTED$/;"	d
+PNG_READ_FILLER_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_FILLER_SUPPORTED$/;"	d
+PNG_READ_GAMMA_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_GAMMA_SUPPORTED$/;"	d
+PNG_READ_GET_PALETTE_MAX_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_GET_PALETTE_MAX_SUPPORTED$/;"	d
+PNG_READ_GRAY_TO_RGB_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_GRAY_TO_RGB_SUPPORTED$/;"	d
+PNG_READ_INTERLACING_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_INTERLACING_SUPPORTED$/;"	d
+PNG_READ_INT_FUNCTIONS_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_INT_FUNCTIONS_SUPPORTED$/;"	d
+PNG_READ_INVERT_ALPHA_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_INVERT_ALPHA_SUPPORTED$/;"	d
+PNG_READ_INVERT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_INVERT_SUPPORTED$/;"	d
+PNG_READ_OPT_PLTE_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_OPT_PLTE_SUPPORTED$/;"	d
+PNG_READ_PACKSWAP_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_PACKSWAP_SUPPORTED$/;"	d
+PNG_READ_PACK_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_PACK_SUPPORTED$/;"	d
+PNG_READ_QUANTIZE_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_QUANTIZE_SUPPORTED$/;"	d
+PNG_READ_RGB_TO_GRAY_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_RGB_TO_GRAY_SUPPORTED$/;"	d
+PNG_READ_SCALE_16_TO_8_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_SCALE_16_TO_8_SUPPORTED$/;"	d
+PNG_READ_SHIFT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_SHIFT_SUPPORTED$/;"	d
+PNG_READ_STRIP_16_TO_8_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_STRIP_16_TO_8_SUPPORTED$/;"	d
+PNG_READ_STRIP_ALPHA_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_STRIP_ALPHA_SUPPORTED$/;"	d
+PNG_READ_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_SUPPORTED$/;"	d
+PNG_READ_SWAP_ALPHA_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_SWAP_ALPHA_SUPPORTED$/;"	d
+PNG_READ_SWAP_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_SWAP_SUPPORTED$/;"	d
+PNG_READ_TEXT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_TEXT_SUPPORTED$/;"	d
+PNG_READ_TRANSFORMS_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_TRANSFORMS_SUPPORTED$/;"	d
+PNG_READ_UNKNOWN_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_UNKNOWN_CHUNKS_SUPPORTED$/;"	d
+PNG_READ_USER_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_USER_CHUNKS_SUPPORTED$/;"	d
+PNG_READ_USER_TRANSFORM_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_USER_TRANSFORM_SUPPORTED$/;"	d
+PNG_READ_bKGD_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_bKGD_SUPPORTED$/;"	d
+PNG_READ_cHRM_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_cHRM_SUPPORTED$/;"	d
+PNG_READ_eXIf_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_eXIf_SUPPORTED$/;"	d
+PNG_READ_gAMA_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_gAMA_SUPPORTED$/;"	d
+PNG_READ_hIST_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_hIST_SUPPORTED$/;"	d
+PNG_READ_iCCP_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_iCCP_SUPPORTED$/;"	d
+PNG_READ_iTXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_iTXt_SUPPORTED$/;"	d
+PNG_READ_oFFs_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_oFFs_SUPPORTED$/;"	d
+PNG_READ_pCAL_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_pCAL_SUPPORTED$/;"	d
+PNG_READ_pHYs_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_pHYs_SUPPORTED$/;"	d
+PNG_READ_sBIT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_sBIT_SUPPORTED$/;"	d
+PNG_READ_sCAL_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_sCAL_SUPPORTED$/;"	d
+PNG_READ_sPLT_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_sPLT_SUPPORTED$/;"	d
+PNG_READ_sRGB_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_sRGB_SUPPORTED$/;"	d
+PNG_READ_tEXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_tEXt_SUPPORTED$/;"	d
+PNG_READ_tIME_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_tIME_SUPPORTED$/;"	d
+PNG_READ_tRNS_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_tRNS_SUPPORTED$/;"	d
+PNG_READ_zTXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_READ_zTXt_SUPPORTED$/;"	d
+PNG_REMOVED	include/pngconf.h	/^#  define PNG_REMOVED(/;"	d
+PNG_RESOLUTION_LAST	include/png.h	/^#define PNG_RESOLUTION_LAST /;"	d
+PNG_RESOLUTION_METER	include/png.h	/^#define PNG_RESOLUTION_METER /;"	d
+PNG_RESOLUTION_UNKNOWN	include/png.h	/^#define PNG_RESOLUTION_UNKNOWN /;"	d
+PNG_RESTRICT	include/pngconf.h	/^#          define PNG_RESTRICT /;"	d
+PNG_RESTRICT	include/pngconf.h	/^#        define PNG_RESTRICT /;"	d
+PNG_RESTRICT	include/pngconf.h	/^#      define PNG_RESTRICT /;"	d
+PNG_RESTRICT	include/pngconf.h	/^#  define PNG_RESTRICT /;"	d
+PNG_RGB_TO_GRAY_DEFAULT	include/png.h	/^#define PNG_RGB_TO_GRAY_DEFAULT /;"	d
+PNG_ROW_FROM_PASS_ROW	include/png.h	/^#define PNG_ROW_FROM_PASS_ROW(/;"	d
+PNG_ROW_IN_INTERLACE_PASS	include/png.h	/^#define PNG_ROW_IN_INTERLACE_PASS(/;"	d
+PNG_SAVE_INT_32_SUPPORTED	include/pnglibconf.h	/^#define PNG_SAVE_INT_32_SUPPORTED$/;"	d
+PNG_SAVE_UNKNOWN_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_SAVE_UNKNOWN_CHUNKS_SUPPORTED$/;"	d
+PNG_SCALE_LAST	include/png.h	/^#define PNG_SCALE_LAST /;"	d
+PNG_SCALE_METER	include/png.h	/^#define PNG_SCALE_METER /;"	d
+PNG_SCALE_RADIAN	include/png.h	/^#define PNG_SCALE_RADIAN /;"	d
+PNG_SCALE_UNKNOWN	include/png.h	/^#define PNG_SCALE_UNKNOWN /;"	d
+PNG_SEQUENTIAL_READ_SUPPORTED	include/pnglibconf.h	/^#define PNG_SEQUENTIAL_READ_SUPPORTED$/;"	d
+PNG_SETJMP_SUPPORTED	include/pnglibconf.h	/^#define PNG_SETJMP_SUPPORTED$/;"	d
+PNG_SET_OPTION_SUPPORTED	include/pnglibconf.h	/^#define PNG_SET_OPTION_SUPPORTED$/;"	d
+PNG_SET_UNKNOWN_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_SET_UNKNOWN_CHUNKS_SUPPORTED$/;"	d
+PNG_SET_USER_LIMITS_SUPPORTED	include/pnglibconf.h	/^#define PNG_SET_USER_LIMITS_SUPPORTED$/;"	d
+PNG_SET_WILL_FREE_DATA	include/png.h	/^#define PNG_SET_WILL_FREE_DATA /;"	d
+PNG_SIMPLIFIED_READ_AFIRST_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_READ_AFIRST_SUPPORTED$/;"	d
+PNG_SIMPLIFIED_READ_BGR_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_READ_BGR_SUPPORTED$/;"	d
+PNG_SIMPLIFIED_READ_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_READ_SUPPORTED$/;"	d
+PNG_SIMPLIFIED_WRITE_AFIRST_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_WRITE_AFIRST_SUPPORTED$/;"	d
+PNG_SIMPLIFIED_WRITE_BGR_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_WRITE_BGR_SUPPORTED$/;"	d
+PNG_SIMPLIFIED_WRITE_STDIO_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_WRITE_STDIO_SUPPORTED$/;"	d
+PNG_SIMPLIFIED_WRITE_SUPPORTED	include/pnglibconf.h	/^#define PNG_SIMPLIFIED_WRITE_SUPPORTED$/;"	d
+PNG_SIZE_MAX	include/png.h	/^#define PNG_SIZE_MAX /;"	d
+PNG_SKIP_sRGB_CHECK_PROFILE	include/png.h	/^#define PNG_SKIP_sRGB_CHECK_PROFILE /;"	d
+PNG_SMALL_SIZE_T	include/pngconf.h	/^#     define PNG_SMALL_SIZE_T$/;"	d
+PNG_STDIO_SUPPORTED	include/pnglibconf.h	/^#define PNG_STDIO_SUPPORTED$/;"	d
+PNG_STORE_UNKNOWN_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_STORE_UNKNOWN_CHUNKS_SUPPORTED$/;"	d
+PNG_TEXT_COMPRESSION_LAST	include/png.h	/^#define PNG_TEXT_COMPRESSION_LAST /;"	d
+PNG_TEXT_COMPRESSION_NONE	include/png.h	/^#define PNG_TEXT_COMPRESSION_NONE /;"	d
+PNG_TEXT_COMPRESSION_NONE_WR	include/png.h	/^#define PNG_TEXT_COMPRESSION_NONE_WR /;"	d
+PNG_TEXT_COMPRESSION_zTXt	include/png.h	/^#define PNG_TEXT_COMPRESSION_zTXt /;"	d
+PNG_TEXT_COMPRESSION_zTXt_WR	include/png.h	/^#define PNG_TEXT_COMPRESSION_zTXt_WR /;"	d
+PNG_TEXT_SUPPORTED	include/pnglibconf.h	/^#define PNG_TEXT_SUPPORTED$/;"	d
+PNG_TEXT_Z_DEFAULT_COMPRESSION	include/pnglibconf.h	/^#define PNG_TEXT_Z_DEFAULT_COMPRESSION /;"	d
+PNG_TEXT_Z_DEFAULT_STRATEGY	include/pnglibconf.h	/^#define PNG_TEXT_Z_DEFAULT_STRATEGY /;"	d
+PNG_TIME_RFC1123_SUPPORTED	include/pnglibconf.h	/^#define PNG_TIME_RFC1123_SUPPORTED$/;"	d
+PNG_TRANSFORM_BGR	include/png.h	/^#define PNG_TRANSFORM_BGR /;"	d
+PNG_TRANSFORM_EXPAND	include/png.h	/^#define PNG_TRANSFORM_EXPAND /;"	d
+PNG_TRANSFORM_EXPAND_16	include/png.h	/^#define PNG_TRANSFORM_EXPAND_16 /;"	d
+PNG_TRANSFORM_GRAY_TO_RGB	include/png.h	/^#define PNG_TRANSFORM_GRAY_TO_RGB /;"	d
+PNG_TRANSFORM_IDENTITY	include/png.h	/^#define PNG_TRANSFORM_IDENTITY /;"	d
+PNG_TRANSFORM_INVERT_ALPHA	include/png.h	/^#define PNG_TRANSFORM_INVERT_ALPHA /;"	d
+PNG_TRANSFORM_INVERT_MONO	include/png.h	/^#define PNG_TRANSFORM_INVERT_MONO /;"	d
+PNG_TRANSFORM_PACKING	include/png.h	/^#define PNG_TRANSFORM_PACKING /;"	d
+PNG_TRANSFORM_PACKSWAP	include/png.h	/^#define PNG_TRANSFORM_PACKSWAP /;"	d
+PNG_TRANSFORM_SCALE_16	include/png.h	/^#define PNG_TRANSFORM_SCALE_16 /;"	d
+PNG_TRANSFORM_SHIFT	include/png.h	/^#define PNG_TRANSFORM_SHIFT /;"	d
+PNG_TRANSFORM_STRIP_16	include/png.h	/^#define PNG_TRANSFORM_STRIP_16 /;"	d
+PNG_TRANSFORM_STRIP_ALPHA	include/png.h	/^#define PNG_TRANSFORM_STRIP_ALPHA /;"	d
+PNG_TRANSFORM_STRIP_FILLER	include/png.h	/^#define PNG_TRANSFORM_STRIP_FILLER /;"	d
+PNG_TRANSFORM_STRIP_FILLER_AFTER	include/png.h	/^#define PNG_TRANSFORM_STRIP_FILLER_AFTER /;"	d
+PNG_TRANSFORM_STRIP_FILLER_BEFORE	include/png.h	/^#define PNG_TRANSFORM_STRIP_FILLER_BEFORE /;"	d
+PNG_TRANSFORM_SWAP_ALPHA	include/png.h	/^#define PNG_TRANSFORM_SWAP_ALPHA /;"	d
+PNG_TRANSFORM_SWAP_ENDIAN	include/png.h	/^#define PNG_TRANSFORM_SWAP_ENDIAN /;"	d
+PNG_UINT_31_MAX	include/png.h	/^#define PNG_UINT_31_MAX /;"	d
+PNG_UINT_32_MAX	include/png.h	/^#define PNG_UINT_32_MAX /;"	d
+PNG_UNKNOWN_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_UNKNOWN_CHUNKS_SUPPORTED$/;"	d
+PNG_USER_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_USER_CHUNKS_SUPPORTED$/;"	d
+PNG_USER_CHUNK_CACHE_MAX	include/pnglibconf.h	/^#define PNG_USER_CHUNK_CACHE_MAX /;"	d
+PNG_USER_CHUNK_MALLOC_MAX	include/pnglibconf.h	/^#define PNG_USER_CHUNK_MALLOC_MAX /;"	d
+PNG_USER_HEIGHT_MAX	include/pnglibconf.h	/^#define PNG_USER_HEIGHT_MAX /;"	d
+PNG_USER_LIMITS_SUPPORTED	include/pnglibconf.h	/^#define PNG_USER_LIMITS_SUPPORTED$/;"	d
+PNG_USER_MEM_SUPPORTED	include/pnglibconf.h	/^#define PNG_USER_MEM_SUPPORTED$/;"	d
+PNG_USER_TRANSFORM_INFO_SUPPORTED	include/pnglibconf.h	/^#define PNG_USER_TRANSFORM_INFO_SUPPORTED$/;"	d
+PNG_USER_TRANSFORM_PTR_SUPPORTED	include/pnglibconf.h	/^#define PNG_USER_TRANSFORM_PTR_SUPPORTED$/;"	d
+PNG_USER_WIDTH_MAX	include/pnglibconf.h	/^#define PNG_USER_WIDTH_MAX /;"	d
+PNG_USER_WILL_FREE_DATA	include/png.h	/^#define PNG_USER_WILL_FREE_DATA /;"	d
+PNG_USE_READ_MACROS	include/pngconf.h	/^#    define PNG_USE_READ_MACROS$/;"	d
+PNG_USE_READ_MACROS	include/pngconf.h	/^#  define PNG_USE_READ_MACROS$/;"	d
+PNG_USE_RESULT	include/pngconf.h	/^#      define PNG_USE_RESULT /;"	d
+PNG_USE_RESULT	include/pngconf.h	/^#  define PNG_USE_RESULT /;"	d
+PNG_WARNINGS_SUPPORTED	include/pnglibconf.h	/^#define PNG_WARNINGS_SUPPORTED$/;"	d
+PNG_WRITE_16BIT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_16BIT_SUPPORTED$/;"	d
+PNG_WRITE_ANCILLARY_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_ANCILLARY_CHUNKS_SUPPORTED$/;"	d
+PNG_WRITE_BGR_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_BGR_SUPPORTED$/;"	d
+PNG_WRITE_CHECK_FOR_INVALID_INDEX_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_CHECK_FOR_INVALID_INDEX_SUPPORTED$/;"	d
+PNG_WRITE_COMPRESSED_TEXT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_COMPRESSED_TEXT_SUPPORTED$/;"	d
+PNG_WRITE_CUSTOMIZE_COMPRESSION_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_CUSTOMIZE_COMPRESSION_SUPPORTED$/;"	d
+PNG_WRITE_CUSTOMIZE_ZTXT_COMPRESSION_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_CUSTOMIZE_ZTXT_COMPRESSION_SUPPORTED$/;"	d
+PNG_WRITE_FILLER_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_FILLER_SUPPORTED$/;"	d
+PNG_WRITE_FILTER_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_FILTER_SUPPORTED$/;"	d
+PNG_WRITE_FLUSH_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_FLUSH_SUPPORTED$/;"	d
+PNG_WRITE_GET_PALETTE_MAX_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_GET_PALETTE_MAX_SUPPORTED$/;"	d
+PNG_WRITE_INTERLACING_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_INTERLACING_SUPPORTED$/;"	d
+PNG_WRITE_INT_FUNCTIONS_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_INT_FUNCTIONS_SUPPORTED$/;"	d
+PNG_WRITE_INVERT_ALPHA_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_INVERT_ALPHA_SUPPORTED$/;"	d
+PNG_WRITE_INVERT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_INVERT_SUPPORTED$/;"	d
+PNG_WRITE_OPTIMIZE_CMF_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_OPTIMIZE_CMF_SUPPORTED$/;"	d
+PNG_WRITE_PACKSWAP_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_PACKSWAP_SUPPORTED$/;"	d
+PNG_WRITE_PACK_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_PACK_SUPPORTED$/;"	d
+PNG_WRITE_SHIFT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_SHIFT_SUPPORTED$/;"	d
+PNG_WRITE_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_SUPPORTED$/;"	d
+PNG_WRITE_SWAP_ALPHA_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_SWAP_ALPHA_SUPPORTED$/;"	d
+PNG_WRITE_SWAP_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_SWAP_SUPPORTED$/;"	d
+PNG_WRITE_TEXT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_TEXT_SUPPORTED$/;"	d
+PNG_WRITE_TRANSFORMS_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_TRANSFORMS_SUPPORTED$/;"	d
+PNG_WRITE_UNKNOWN_CHUNKS_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_UNKNOWN_CHUNKS_SUPPORTED$/;"	d
+PNG_WRITE_USER_TRANSFORM_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_USER_TRANSFORM_SUPPORTED$/;"	d
+PNG_WRITE_WEIGHTED_FILTER_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_WEIGHTED_FILTER_SUPPORTED$/;"	d
+PNG_WRITE_bKGD_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_bKGD_SUPPORTED$/;"	d
+PNG_WRITE_cHRM_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_cHRM_SUPPORTED$/;"	d
+PNG_WRITE_eXIf_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_eXIf_SUPPORTED$/;"	d
+PNG_WRITE_gAMA_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_gAMA_SUPPORTED$/;"	d
+PNG_WRITE_hIST_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_hIST_SUPPORTED$/;"	d
+PNG_WRITE_iCCP_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_iCCP_SUPPORTED$/;"	d
+PNG_WRITE_iTXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_iTXt_SUPPORTED$/;"	d
+PNG_WRITE_oFFs_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_oFFs_SUPPORTED$/;"	d
+PNG_WRITE_pCAL_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_pCAL_SUPPORTED$/;"	d
+PNG_WRITE_pHYs_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_pHYs_SUPPORTED$/;"	d
+PNG_WRITE_sBIT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_sBIT_SUPPORTED$/;"	d
+PNG_WRITE_sCAL_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_sCAL_SUPPORTED$/;"	d
+PNG_WRITE_sPLT_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_sPLT_SUPPORTED$/;"	d
+PNG_WRITE_sRGB_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_sRGB_SUPPORTED$/;"	d
+PNG_WRITE_tEXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_tEXt_SUPPORTED$/;"	d
+PNG_WRITE_tIME_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_tIME_SUPPORTED$/;"	d
+PNG_WRITE_tRNS_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_tRNS_SUPPORTED$/;"	d
+PNG_WRITE_zTXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_WRITE_zTXt_SUPPORTED$/;"	d
+PNG_ZBUF_SIZE	include/pnglibconf.h	/^#define PNG_ZBUF_SIZE /;"	d
+PNG_ZLIB_MAX_SIZE	include/png.h	/^#  define PNG_ZLIB_MAX_SIZE(/;"	d
+PNG_ZLIB_VERNUM	include/pnglibconf.h	/^#define PNG_ZLIB_VERNUM /;"	d
+PNG_Z_DEFAULT_COMPRESSION	include/pnglibconf.h	/^#define PNG_Z_DEFAULT_COMPRESSION /;"	d
+PNG_Z_DEFAULT_NOFILTER_STRATEGY	include/pnglibconf.h	/^#define PNG_Z_DEFAULT_NOFILTER_STRATEGY /;"	d
+PNG_Z_DEFAULT_STRATEGY	include/pnglibconf.h	/^#define PNG_Z_DEFAULT_STRATEGY /;"	d
+PNG_bKGD_SUPPORTED	include/pnglibconf.h	/^#define PNG_bKGD_SUPPORTED$/;"	d
+PNG_cHRM_SUPPORTED	include/pnglibconf.h	/^#define PNG_cHRM_SUPPORTED$/;"	d
+PNG_eXIf_SUPPORTED	include/pnglibconf.h	/^#define PNG_eXIf_SUPPORTED$/;"	d
+PNG_gAMA_SUPPORTED	include/pnglibconf.h	/^#define PNG_gAMA_SUPPORTED$/;"	d
+PNG_get_int_32	include/png.h	/^#    define PNG_get_int_32 /;"	d
+PNG_get_int_32	include/png.h	/^#  define PNG_get_int_32(/;"	d
+PNG_get_uint_16	include/png.h	/^#    define PNG_get_uint_16 /;"	d
+PNG_get_uint_16	include/png.h	/^#  define PNG_get_uint_16(/;"	d
+PNG_get_uint_32	include/png.h	/^#    define PNG_get_uint_32 /;"	d
+PNG_get_uint_32	include/png.h	/^#  define PNG_get_uint_32(/;"	d
+PNG_hIST_SUPPORTED	include/pnglibconf.h	/^#define PNG_hIST_SUPPORTED$/;"	d
+PNG_iCCP_SUPPORTED	include/pnglibconf.h	/^#define PNG_iCCP_SUPPORTED$/;"	d
+PNG_iTXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_iTXt_SUPPORTED$/;"	d
+PNG_oFFs_SUPPORTED	include/pnglibconf.h	/^#define PNG_oFFs_SUPPORTED$/;"	d
+PNG_pCAL_SUPPORTED	include/pnglibconf.h	/^#define PNG_pCAL_SUPPORTED$/;"	d
+PNG_pHYs_SUPPORTED	include/pnglibconf.h	/^#define PNG_pHYs_SUPPORTED$/;"	d
+PNG_sBIT_SUPPORTED	include/pnglibconf.h	/^#define PNG_sBIT_SUPPORTED$/;"	d
+PNG_sCAL_PRECISION	include/pnglibconf.h	/^#define PNG_sCAL_PRECISION /;"	d
+PNG_sCAL_SUPPORTED	include/pnglibconf.h	/^#define PNG_sCAL_SUPPORTED$/;"	d
+PNG_sPLT_SUPPORTED	include/pnglibconf.h	/^#define PNG_sPLT_SUPPORTED$/;"	d
+PNG_sRGB_INTENT_ABSOLUTE	include/png.h	/^#define PNG_sRGB_INTENT_ABSOLUTE /;"	d
+PNG_sRGB_INTENT_LAST	include/png.h	/^#define PNG_sRGB_INTENT_LAST /;"	d
+PNG_sRGB_INTENT_PERCEPTUAL	include/png.h	/^#define PNG_sRGB_INTENT_PERCEPTUAL /;"	d
+PNG_sRGB_INTENT_RELATIVE	include/png.h	/^#define PNG_sRGB_INTENT_RELATIVE /;"	d
+PNG_sRGB_INTENT_SATURATION	include/png.h	/^#define PNG_sRGB_INTENT_SATURATION /;"	d
+PNG_sRGB_PROFILE_CHECKS	include/pnglibconf.h	/^#define PNG_sRGB_PROFILE_CHECKS /;"	d
+PNG_sRGB_SUPPORTED	include/pnglibconf.h	/^#define PNG_sRGB_SUPPORTED$/;"	d
+PNG_tEXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_tEXt_SUPPORTED$/;"	d
+PNG_tIME_SUPPORTED	include/pnglibconf.h	/^#define PNG_tIME_SUPPORTED$/;"	d
+PNG_tRNS_SUPPORTED	include/pnglibconf.h	/^#define PNG_tRNS_SUPPORTED$/;"	d
+PNG_zTXt_SUPPORTED	include/pnglibconf.h	/^#define PNG_zTXt_SUPPORTED$/;"	d
+WriteToFile	src/image.cc	/^void ImageClass<P>::WriteToFile(char const * file_name) {$/;"	f	class:ImageClass	typeref:typename:void
+__INCLUDED_IMAGE_H__	src/image.h	/^#define __INCLUDED_IMAGE_H__$/;"	d
+__INCLUDED_STENCIL_H__	src/stencil.h	/^#define __INCLUDED_STENCIL_H__$/;"	d
+__anona5f3ae730108	include/png.h	/^{$/;"	s
+all	Makefile	/^all:	stencil$/;"	t
+alpha	include/png.h	/^   png_byte alpha; \/* for alpha channel files *\/$/;"	m	struct:png_color_8_struct	typeref:typename:png_byte
+alpha	include/png.h	/^   png_uint_16 alpha;$/;"	m	struct:png_sPLT_entry_struct	typeref:typename:png_uint_16
+bit_depth	include/png.h	/^   png_byte bit_depth;   \/* bit depth of row *\/$/;"	m	struct:png_row_info_struct	typeref:typename:png_byte
+blue	include/png.h	/^   png_byte blue;$/;"	m	struct:png_color_8_struct	typeref:typename:png_byte
+blue	include/png.h	/^   png_byte blue;$/;"	m	struct:png_color_struct	typeref:typename:png_byte
+blue	include/png.h	/^   png_uint_16 blue;$/;"	m	struct:png_color_16_struct	typeref:typename:png_uint_16
+blue	include/png.h	/^   png_uint_16 blue;$/;"	m	struct:png_sPLT_entry_struct	typeref:typename:png_uint_16
+channels	include/png.h	/^   png_byte channels;    \/* number of channels (1, 2, 3, or 4) *\/$/;"	m	struct:png_row_info_struct	typeref:typename:png_byte
+clean	Makefile	/^clean:$/;"	t
+color_type	include/png.h	/^   png_byte color_type;  \/* color type of row *\/$/;"	m	struct:png_row_info_struct	typeref:typename:png_byte
+colormap_entries	include/png.h	/^   png_uint_32  colormap_entries;$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+compression	include/png.h	/^   int  compression;       \/* compression value:$/;"	m	struct:png_text_struct	typeref:typename:int
+data	include/png.h	/^   png_byte *data;   \/* Data, should not be modified on read! *\/$/;"	m	struct:png_unknown_chunk_t	typeref:typename:png_byte *
+day	include/png.h	/^   png_byte day;     \/* day of month, 1 - 31 *\/$/;"	m	struct:png_time_struct	typeref:typename:png_byte
+depth	include/png.h	/^   png_byte depth;           \/* depth of palette samples *\/$/;"	m	struct:png_sPLT_struct	typeref:typename:png_byte
+entries	include/png.h	/^   png_sPLT_entryp entries;  \/* palette entries *\/$/;"	m	struct:png_sPLT_struct	typeref:typename:png_sPLT_entryp
+flags	include/png.h	/^   png_uint_32  flags;     \/* A bit mask containing informational flags *\/$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+format	include/png.h	/^   png_uint_32  format;    \/* Image format as defined below *\/$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+frequency	include/png.h	/^   png_uint_16 frequency;$/;"	m	struct:png_sPLT_entry_struct	typeref:typename:png_uint_16
+gray	include/png.h	/^   png_byte gray;  \/* for use in grayscale files *\/$/;"	m	struct:png_color_8_struct	typeref:typename:png_byte
+gray	include/png.h	/^   png_uint_16 gray;  \/* for use in grayscale files *\/$/;"	m	struct:png_color_16_struct	typeref:typename:png_uint_16
+green	include/png.h	/^   png_byte green;$/;"	m	struct:png_color_8_struct	typeref:typename:png_byte
+green	include/png.h	/^   png_byte green;$/;"	m	struct:png_color_struct	typeref:typename:png_byte
+green	include/png.h	/^   png_uint_16 green;$/;"	m	struct:png_color_16_struct	typeref:typename:png_uint_16
+green	include/png.h	/^   png_uint_16 green;$/;"	m	struct:png_sPLT_entry_struct	typeref:typename:png_uint_16
+height	include/png.h	/^   png_uint_32  height;    \/* Image height in pixels (rows) *\/$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+height	src/image.h	/^  int height;$/;"	m	class:ImageClass	typeref:typename:int
+hour	include/png.h	/^   png_byte hour;    \/* hour of day, 0 - 23 *\/$/;"	m	struct:png_time_struct	typeref:typename:png_byte
+index	include/png.h	/^   png_byte index;    \/* used for palette files *\/$/;"	m	struct:png_color_16_struct	typeref:typename:png_byte
+itxt_length	include/png.h	/^   png_size_t itxt_length; \/* length of the itxt string *\/$/;"	m	struct:png_text_struct	typeref:typename:png_size_t
+key	include/png.h	/^   png_charp key;          \/* keyword, 1-79 character description of "text" *\/$/;"	m	struct:png_text_struct	typeref:typename:png_charp
+lang	include/png.h	/^   png_charp lang;         \/* language code, 0-79 characters$/;"	m	struct:png_text_struct	typeref:typename:png_charp
+lang_key	include/png.h	/^   png_charp lang_key;     \/* keyword translated UTF-8 string, 0 or more$/;"	m	struct:png_text_struct	typeref:typename:png_charp
+location	include/png.h	/^   png_byte location; \/* mode of operation at read time *\/$/;"	m	struct:png_unknown_chunk_t	typeref:typename:png_byte
+main	src/main.cc	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+max	src/main.cc	/^#define max(/;"	d	file:
+message	include/png.h	/^   char         message[64];$/;"	m	struct:__anona5f3ae730108	typeref:typename:char[64]
+minute	include/png.h	/^   png_byte minute;  \/* minute of hour, 0 - 59 *\/$/;"	m	struct:png_time_struct	typeref:typename:png_byte
+month	include/png.h	/^   png_byte month;   \/* month of year, 1 - 12 *\/$/;"	m	struct:png_time_struct	typeref:typename:png_byte
+nTrials	src/main.cc	/^int nTrials;$/;"	v	typeref:typename:int
+name	include/png.h	/^   png_byte name[5]; \/* Textual chunk name with '\\0' terminator *\/$/;"	m	struct:png_unknown_chunk_t	typeref:typename:png_byte[5]
+name	include/png.h	/^   png_charp name;           \/* palette name *\/$/;"	m	struct:png_sPLT_struct	typeref:typename:png_charp
+nentries	include/png.h	/^   png_int_32 nentries;      \/* number of palette entries *\/$/;"	m	struct:png_sPLT_struct	typeref:typename:png_int_32
+opaque	include/png.h	/^   png_controlp opaque;    \/* Initialize to NULL, free with png_image_free *\/$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_controlp
+pixel	src/image.h	/^  P* pixel;$/;"	m	class:ImageClass	typeref:typename:P *
+pixel_depth	include/png.h	/^   png_byte pixel_depth; \/* bits per pixel (depth * channels) *\/$/;"	m	struct:png_row_info_struct	typeref:typename:png_byte
+png_FILE_p	include/pngconf.h	/^typedef FILE            * png_FILE_p;$/;"	t	typeref:typename:FILE *
+png_alloc_size_t	include/pngconf.h	/^   typedef png_size_t png_alloc_size_t;$/;"	t	typeref:typename:png_size_t
+png_alloc_size_t	include/pngconf.h	/^   typedef png_uint_32 png_alloc_size_t;$/;"	t	typeref:typename:png_uint_32
+png_benign_error	include/png.h	/^#    define png_benign_error /;"	d
+png_byte	include/pngconf.h	/^   typedef unsigned char png_byte;$/;"	t	typeref:typename:unsigned char
+png_bytep	include/pngconf.h	/^typedef png_byte              * png_bytep;$/;"	t	typeref:typename:png_byte *
+png_bytepp	include/pngconf.h	/^typedef png_byte        * * png_bytepp;$/;"	t	typeref:typename:png_byte **
+png_charp	include/pngconf.h	/^typedef char                  * png_charp;$/;"	t	typeref:typename:char *
+png_charpp	include/pngconf.h	/^typedef char            * * png_charpp;$/;"	t	typeref:typename:char **
+png_charppp	include/pngconf.h	/^typedef char            * * * png_charppp;$/;"	t	typeref:typename:char ***
+png_check_sig	include/png.h	/^#define png_check_sig(/;"	d
+png_chunk_benign_error	include/png.h	/^#    define png_chunk_benign_error /;"	d
+png_chunk_error	include/png.h	/^#  define png_chunk_error(/;"	d
+png_chunk_warning	include/png.h	/^#  define png_chunk_warning(/;"	d
+png_color	include/png.h	/^} png_color;$/;"	t	typeref:struct:png_color_struct
+png_color_16	include/png.h	/^} png_color_16;$/;"	t	typeref:struct:png_color_16_struct
+png_color_16_struct	include/png.h	/^typedef struct png_color_16_struct$/;"	s
+png_color_16p	include/png.h	/^typedef png_color_16 * png_color_16p;$/;"	t	typeref:typename:png_color_16 *
+png_color_16pp	include/png.h	/^typedef png_color_16 * * png_color_16pp;$/;"	t	typeref:typename:png_color_16 **
+png_color_8	include/png.h	/^} png_color_8;$/;"	t	typeref:struct:png_color_8_struct
+png_color_8_struct	include/png.h	/^typedef struct png_color_8_struct$/;"	s
+png_color_8p	include/png.h	/^typedef png_color_8 * png_color_8p;$/;"	t	typeref:typename:png_color_8 *
+png_color_8pp	include/png.h	/^typedef png_color_8 * * png_color_8pp;$/;"	t	typeref:typename:png_color_8 **
+png_color_struct	include/png.h	/^typedef struct png_color_struct$/;"	s
+png_colorp	include/png.h	/^typedef png_color * png_colorp;$/;"	t	typeref:typename:png_color *
+png_colorpp	include/png.h	/^typedef png_color * * png_colorpp;$/;"	t	typeref:typename:png_color **
+png_composite	include/png.h	/^#  define png_composite(/;"	d
+png_composite_16	include/png.h	/^#  define png_composite_16(/;"	d
+png_const_bytep	include/pngconf.h	/^typedef const png_byte        * png_const_bytep;$/;"	t	typeref:typename:const png_byte *
+png_const_charp	include/pngconf.h	/^typedef const char            * png_const_charp;$/;"	t	typeref:typename:const char *
+png_const_charpp	include/pngconf.h	/^typedef const char      * * png_const_charpp;$/;"	t	typeref:typename:const char **
+png_const_color_16p	include/png.h	/^typedef const png_color_16 * png_const_color_16p;$/;"	t	typeref:typename:const png_color_16 *
+png_const_color_8p	include/png.h	/^typedef const png_color_8 * png_const_color_8p;$/;"	t	typeref:typename:const png_color_8 *
+png_const_colorp	include/png.h	/^typedef const png_color * png_const_colorp;$/;"	t	typeref:typename:const png_color *
+png_const_doublep	include/pngconf.h	/^typedef const double * png_const_doublep;$/;"	t	typeref:typename:const double *
+png_const_fixed_point_p	include/pngconf.h	/^typedef const png_fixed_point * png_const_fixed_point_p;$/;"	t	typeref:typename:const png_fixed_point *
+png_const_infop	include/png.h	/^typedef const png_info * png_const_infop;$/;"	t	typeref:typename:const png_info *
+png_const_inforp	include/png.h	/^typedef const png_info * PNG_RESTRICT png_const_inforp;$/;"	t	typeref:typename:const png_info * PNG_RESTRICT
+png_const_int_16p	include/pngconf.h	/^typedef const png_int_16      * png_const_int_16p;$/;"	t	typeref:typename:const png_int_16 *
+png_const_int_32p	include/pngconf.h	/^typedef const png_int_32      * png_const_int_32p;$/;"	t	typeref:typename:const png_int_32 *
+png_const_sPLT_entryp	include/png.h	/^typedef const png_sPLT_entry * png_const_sPLT_entryp;$/;"	t	typeref:typename:const png_sPLT_entry *
+png_const_sPLT_tp	include/png.h	/^typedef const png_sPLT_t * png_const_sPLT_tp;$/;"	t	typeref:typename:const png_sPLT_t *
+png_const_size_tp	include/pngconf.h	/^typedef const png_size_t      * png_const_size_tp;$/;"	t	typeref:typename:const png_size_t *
+png_const_structp	include/png.h	/^typedef const png_struct * png_const_structp;$/;"	t	typeref:typename:const png_struct *
+png_const_structrp	include/png.h	/^typedef const png_struct * PNG_RESTRICT png_const_structrp;$/;"	t	typeref:typename:const png_struct * PNG_RESTRICT
+png_const_textp	include/png.h	/^typedef const png_text * png_const_textp;$/;"	t	typeref:typename:const png_text *
+png_const_timep	include/png.h	/^typedef const png_time * png_const_timep;$/;"	t	typeref:typename:const png_time *
+png_const_uint_16p	include/pngconf.h	/^typedef const png_uint_16     * png_const_uint_16p;$/;"	t	typeref:typename:const png_uint_16 *
+png_const_uint_32p	include/pngconf.h	/^typedef const png_uint_32     * png_const_uint_32p;$/;"	t	typeref:typename:const png_uint_32 *
+png_const_unknown_chunkp	include/png.h	/^typedef const png_unknown_chunk * png_const_unknown_chunkp;$/;"	t	typeref:typename:const png_unknown_chunk *
+png_const_voidp	include/pngconf.h	/^typedef const void            * png_const_voidp;$/;"	t	typeref:typename:const void *
+png_controlp	include/png.h	/^typedef struct png_control *png_controlp;$/;"	t	typeref:struct:png_control *
+png_doublep	include/pngconf.h	/^typedef double       * png_doublep;$/;"	t	typeref:typename:double *
+png_doublepp	include/pngconf.h	/^typedef double          * * png_doublepp;$/;"	t	typeref:typename:double **
+png_error	include/png.h	/^#  define png_error(/;"	d
+png_fixed_point	include/pngconf.h	/^typedef png_int_32 png_fixed_point;$/;"	t	typeref:typename:png_int_32
+png_fixed_point_p	include/pngconf.h	/^typedef png_fixed_point       * png_fixed_point_p;$/;"	t	typeref:typename:png_fixed_point *
+png_fixed_point_pp	include/pngconf.h	/^typedef png_fixed_point * * png_fixed_point_pp;$/;"	t	typeref:typename:png_fixed_point **
+png_get_int_32	include/png.h	/^#    define png_get_int_32(/;"	d
+png_get_uint_16	include/png.h	/^#    define png_get_uint_16(/;"	d
+png_get_uint_32	include/png.h	/^#    define png_get_uint_32(/;"	d
+png_image	include/png.h	/^} png_image, *png_imagep;$/;"	t	typeref:struct:__anona5f3ae730108
+png_image_write_get_memory_size	include/png.h	/^#define png_image_write_get_memory_size(/;"	d
+png_imagep	include/png.h	/^} png_image, *png_imagep;$/;"	t	typeref:struct:__anona5f3ae730108 *
+png_info	include/png.h	/^typedef struct png_info_def png_info;$/;"	t	typeref:struct:png_info_def
+png_infop	include/png.h	/^typedef png_info * png_infop;$/;"	t	typeref:typename:png_info *
+png_infopp	include/png.h	/^typedef png_info * * png_infopp;$/;"	t	typeref:typename:png_info **
+png_inforp	include/png.h	/^typedef png_info * PNG_RESTRICT png_inforp;$/;"	t	typeref:typename:png_info * PNG_RESTRICT
+png_int_16	include/pngconf.h	/^   typedef int png_int_16;$/;"	t	typeref:typename:int
+png_int_16	include/pngconf.h	/^   typedef short png_int_16;$/;"	t	typeref:typename:short
+png_int_16p	include/pngconf.h	/^typedef png_int_16            * png_int_16p;$/;"	t	typeref:typename:png_int_16 *
+png_int_16pp	include/pngconf.h	/^typedef png_int_16      * * png_int_16pp;$/;"	t	typeref:typename:png_int_16 **
+png_int_32	include/pngconf.h	/^   typedef int png_int_32;$/;"	t	typeref:typename:int
+png_int_32	include/pngconf.h	/^   typedef long int png_int_32;$/;"	t	typeref:typename:long int
+png_int_32p	include/pngconf.h	/^typedef png_int_32            * png_int_32p;$/;"	t	typeref:typename:png_int_32 *
+png_int_32pp	include/pngconf.h	/^typedef png_int_32      * * png_int_32pp;$/;"	t	typeref:typename:png_int_32 **
+png_jmpbuf	include/png.h	/^#  define png_jmpbuf(/;"	d
+png_libpng_ver	include/png.h	/^#define png_libpng_ver /;"	d
+png_libpng_version_1_6_34	include/png.h	/^typedef char* png_libpng_version_1_6_34;$/;"	t	typeref:typename:char *
+png_ptrdiff_t	include/pngconf.h	/^typedef ptrdiff_t png_ptrdiff_t;$/;"	t	typeref:typename:ptrdiff_t
+png_row_info	include/png.h	/^} png_row_info;$/;"	t	typeref:struct:png_row_info_struct
+png_row_info_struct	include/png.h	/^typedef struct png_row_info_struct$/;"	s
+png_row_infop	include/png.h	/^typedef png_row_info * png_row_infop;$/;"	t	typeref:typename:png_row_info *
+png_row_infopp	include/png.h	/^typedef png_row_info * * png_row_infopp;$/;"	t	typeref:typename:png_row_info **
+png_sPLT_entry	include/png.h	/^} png_sPLT_entry;$/;"	t	typeref:struct:png_sPLT_entry_struct
+png_sPLT_entry_struct	include/png.h	/^typedef struct png_sPLT_entry_struct$/;"	s
+png_sPLT_entryp	include/png.h	/^typedef png_sPLT_entry * png_sPLT_entryp;$/;"	t	typeref:typename:png_sPLT_entry *
+png_sPLT_entrypp	include/png.h	/^typedef png_sPLT_entry * * png_sPLT_entrypp;$/;"	t	typeref:typename:png_sPLT_entry **
+png_sPLT_struct	include/png.h	/^typedef struct png_sPLT_struct$/;"	s
+png_sPLT_t	include/png.h	/^} png_sPLT_t;$/;"	t	typeref:struct:png_sPLT_struct
+png_sPLT_tp	include/png.h	/^typedef png_sPLT_t * png_sPLT_tp;$/;"	t	typeref:typename:png_sPLT_t *
+png_sPLT_tpp	include/png.h	/^typedef png_sPLT_t * * png_sPLT_tpp;$/;"	t	typeref:typename:png_sPLT_t **
+png_size_t	include/pngconf.h	/^typedef size_t png_size_t;$/;"	t	typeref:typename:size_t
+png_size_tp	include/pngconf.h	/^typedef png_size_t            * png_size_tp;$/;"	t	typeref:typename:png_size_t *
+png_struct	include/png.h	/^typedef struct png_struct_def png_struct;$/;"	t	typeref:struct:png_struct_def
+png_structp	include/png.h	/^typedef png_struct * png_structp;$/;"	t	typeref:typename:png_struct *
+png_structpp	include/png.h	/^typedef png_struct * * png_structpp;$/;"	t	typeref:typename:png_struct **
+png_structrp	include/png.h	/^typedef png_struct * PNG_RESTRICT png_structrp;$/;"	t	typeref:typename:png_struct * PNG_RESTRICT
+png_text	include/png.h	/^} png_text;$/;"	t	typeref:struct:png_text_struct
+png_text_struct	include/png.h	/^typedef struct png_text_struct$/;"	s
+png_textp	include/png.h	/^typedef png_text * png_textp;$/;"	t	typeref:typename:png_text *
+png_textpp	include/png.h	/^typedef png_text * * png_textpp;$/;"	t	typeref:typename:png_text **
+png_time	include/png.h	/^} png_time;$/;"	t	typeref:struct:png_time_struct
+png_time_struct	include/png.h	/^typedef struct png_time_struct$/;"	s
+png_timep	include/png.h	/^typedef png_time * png_timep;$/;"	t	typeref:typename:png_time *
+png_timepp	include/png.h	/^typedef png_time * * png_timepp;$/;"	t	typeref:typename:png_time **
+png_uint_16	include/pngconf.h	/^   typedef unsigned int png_uint_16;$/;"	t	typeref:typename:unsigned int
+png_uint_16	include/pngconf.h	/^   typedef unsigned short png_uint_16;$/;"	t	typeref:typename:unsigned short
+png_uint_16p	include/pngconf.h	/^typedef png_uint_16           * png_uint_16p;$/;"	t	typeref:typename:png_uint_16 *
+png_uint_16pp	include/pngconf.h	/^typedef png_uint_16     * * png_uint_16pp;$/;"	t	typeref:typename:png_uint_16 **
+png_uint_32	include/pngconf.h	/^   typedef unsigned int png_uint_32;$/;"	t	typeref:typename:unsigned int
+png_uint_32	include/pngconf.h	/^   typedef unsigned long int png_uint_32;$/;"	t	typeref:typename:unsigned long int
+png_uint_32p	include/pngconf.h	/^typedef png_uint_32           * png_uint_32p;$/;"	t	typeref:typename:png_uint_32 *
+png_uint_32pp	include/pngconf.h	/^typedef png_uint_32     * * png_uint_32pp;$/;"	t	typeref:typename:png_uint_32 **
+png_unknown_chunk	include/png.h	/^png_unknown_chunk;$/;"	t	typeref:struct:png_unknown_chunk_t
+png_unknown_chunk_t	include/png.h	/^typedef struct png_unknown_chunk_t$/;"	s
+png_unknown_chunkp	include/png.h	/^typedef png_unknown_chunk * png_unknown_chunkp;$/;"	t	typeref:typename:png_unknown_chunk *
+png_unknown_chunkpp	include/png.h	/^typedef png_unknown_chunk * * png_unknown_chunkpp;$/;"	t	typeref:typename:png_unknown_chunk **
+png_voidp	include/pngconf.h	/^typedef void                  * png_voidp;$/;"	t	typeref:typename:void *
+png_warning	include/png.h	/^#  define png_warning(/;"	d
+red	include/png.h	/^   png_byte red;   \/* for use in red green blue files *\/$/;"	m	struct:png_color_8_struct	typeref:typename:png_byte
+red	include/png.h	/^   png_byte red;$/;"	m	struct:png_color_struct	typeref:typename:png_byte
+red	include/png.h	/^   png_uint_16 red;   \/* for use in red green blue files *\/$/;"	m	struct:png_color_16_struct	typeref:typename:png_uint_16
+red	include/png.h	/^   png_uint_16 red;$/;"	m	struct:png_sPLT_entry_struct	typeref:typename:png_uint_16
+rowbytes	include/png.h	/^   png_size_t rowbytes;  \/* number of bytes in row *\/$/;"	m	struct:png_row_info_struct	typeref:typename:png_size_t
+run	Makefile	/^run:	all$/;"	t
+second	include/png.h	/^   png_byte second;  \/* second of minute, 0 - 60 (for leap seconds) *\/$/;"	m	struct:png_time_struct	typeref:typename:png_byte
+size	include/png.h	/^   png_size_t size;$/;"	m	struct:png_unknown_chunk_t	typeref:typename:png_size_t
+skipTrials	src/main.cc	/^int skipTrials;$/;"	v	typeref:typename:int
+stencil	Makefile	/^stencil: $(OBJECTS)$/;"	t
+text	include/png.h	/^   png_charp text;         \/* comment, may be an empty string (ie "")$/;"	m	struct:png_text_struct	typeref:typename:png_charp
+text_length	include/png.h	/^   png_size_t text_length; \/* length of the text string *\/$/;"	m	struct:png_text_struct	typeref:typename:png_size_t
+version	include/png.h	/^   png_uint_32  version;   \/* Set to PNG_IMAGE_VERSION *\/$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+warning_or_error	include/png.h	/^   png_uint_32  warning_or_error;$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+width	include/png.h	/^   png_uint_32  width;     \/* Image width in pixels (columns) *\/$/;"	m	struct:__anona5f3ae730108	typeref:typename:png_uint_32
+width	include/png.h	/^   png_uint_32 width;    \/* width of row *\/$/;"	m	struct:png_row_info_struct	typeref:typename:png_uint_32
+width	src/image.h	/^  int width;$/;"	m	class:ImageClass	typeref:typename:int
+wtime	src/main.cc	/^double wtime()$/;"	f	typeref:typename:double
+year	include/png.h	/^   png_uint_16 year; \/* full year, as in, 1995 *\/$/;"	m	struct:png_time_struct	typeref:typename:png_uint_16
+~ImageClass	src/image.cc	/^ImageClass<P>::~ImageClass() {$/;"	f	class:ImageClass
